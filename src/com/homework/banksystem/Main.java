@@ -49,7 +49,7 @@ public class Main {
         paymentService.pay(Azamat, 1000);
         paymentService.pay(Akan, 1500);
 
-        System.out.println();
+        
 
         DepositService depositService = new DepositService();
         depositService.deposit(Azamat, 2000);
